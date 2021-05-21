@@ -33,7 +33,7 @@ This will install all the required dependencies (including `devDependencies`).
 
 This script will start the app in development mode on [localhost:3000](http://localhost:3000).
 Development mode allows the programmer to see changes made to the app in real-time. And,
-also warns one possible (lint) errors which may slip into production.
+also warns one of possible (lint) errors which may slip into production.
 
 </details>
 
@@ -50,7 +50,7 @@ It will create an optimized production build of the app for you.
 
 ### `serve -s build`
 
-Running this command with start a production server on [port 3000](http://localhost:3000). 
+Running this command with start a production server on [port 3000](http://localhost:3000).
 
 </details>
 
