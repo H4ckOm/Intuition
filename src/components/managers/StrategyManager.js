@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react";
 import { IntuitionManager } from "./IntuitionManager.js";
 import Intuition from "../Intuition";

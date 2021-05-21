@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable */
 
 export const IntuitionManager = {
   isValidMove: (x, y, playerIndex, players, values, width, height) => {
