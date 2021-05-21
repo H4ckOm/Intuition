@@ -20,18 +20,39 @@ This project is made using React.js.
 
 To run this project, first of all, clone this repo and make sure you have installed node-package-manager (npm) in your system.
 
-Open a terminal in project directry and run following commands
+Open a terminal in project directory and run following commands:
+
+<details>
+   <summary>Running in Development Mode</summary>
 
 ### `npm install`
 
-It will install the necessary dependencies.
+This will install all the required dependencies (including `devDependencies`).
 
-### `npm start`
+### `npm run start`
 
-It Runs the app in the development mode.
-Now open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This script will start the app in development mode on [localhost:3000](http://localhost:3000).
+Development mode allows the programmer to see changes made to the app in real-time. And,
+also warns one possible (lint) errors which may slip into production.
 
-The page will reload if you make edits. you will also see any lint errors in the console.
+</details>
+
+<details>
+   <summary>Running in Production Mode</summary>
+
+### `npm install --only=prod`
+
+This command will install all dependencies required to build the app.
+
+### `npm run build`
+
+It will create an optimized production build of the app for you.
+
+### `serve -s build`
+
+Running this command with start a production server on [port 3000](http://localhost:3000). 
+
+</details>
 
 <!-- ## License
 
