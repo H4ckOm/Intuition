@@ -64,7 +64,7 @@ class IntuitionContainer extends React.Component {
 
         <div class="gamePlayOptions mt-3">
           <div class="row">
-            <div class="col text-muted">Game Play</div>
+            <div class="col sub-title">Game Play</div>
           </div>
           <div class="row">
             <div class="col">
@@ -98,7 +98,7 @@ class IntuitionContainer extends React.Component {
             </div>
           </div>
           <div class="row mt-2">
-            <div class="col text-muted">AI Tactic</div>
+            <div class="col sub-title">AI Tactic</div>
           </div>
           <div class="row">
             <div class="col">
@@ -161,7 +161,7 @@ class IntuitionContainer extends React.Component {
             </div>
           </div>
           <div class="row mt-2">
-            <div class="col text-muted">Grid Size</div>
+            <div class="col sub-title">Grid Size</div>
           </div>
           <div class="row">
             <div class="col-auto">
@@ -184,7 +184,7 @@ class IntuitionContainer extends React.Component {
             </div>
           </div>
           <div class="row mt-2">
-            <div class="col text-muted">Minimax Depth</div>
+            <div class="col sub-title">Minimax Depth</div>
           </div>
           <div class="row">
             <div class="col">
@@ -198,7 +198,7 @@ class IntuitionContainer extends React.Component {
             </div>
           </div>
           <div class="row mt-2">
-            <div class="col text-muted">Tree Depth</div>
+            <div class="col sub-title">Tree Depth</div>
           </div>
           <div class="row">
             <div class="col">

@@ -104,7 +104,8 @@ export const StrategyManager = {
     };
 
     const toString = (state) => {
-      return `Depth ${state.depth}, Score ${state.score}, activePlayer ${state.activePlayer}, players: (${state.players[0].x}, ${state.players[0].y}), (${state.players[1].x}, ${state.players[1].y})`;
+      if (state != null)
+        return `Depth ${state.depth}, Score ${state.score}, activePlayer ${state.activePlayer}, players: (${state.players[0].x}, ${state.players[0].y}), (${state.players[1].x}, ${state.players[1].y})`;
     };
 
     const successors = getSuccessors(tree);
